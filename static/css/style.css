@@ -1,0 +1,59 @@
+body {
+    color: #313130;
+    background-color: #cefffe;
+    font-family: "Arial";
+  }
+  .jumbotron {
+    background-image: url("../images/bacteria.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    color: "pale turquois";
+    font-family: "Arial";
+
+  }
+  .jumbotron h1{
+    color: white;
+}
+
+.jumbotron p{color: white}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04aa0a;
+    color: white;
+  }
+
+/*Adding space between charts */
+#bar {
+  margin: 150px;
+  }
+
+#gauge {
+  margin: 150px;
+}
+
+#bubble {
+  margin: 150px;
+}
